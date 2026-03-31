@@ -73,48 +73,48 @@ content:
         type: text
 
 
-#  - name: news
-#    label: Notizie
-#    path: news
-#    filename: '{year}-{month}-{day}-{fields.title}.md'
-#    type: collection
-#    create: true
-#    view:
-#      fields: [date, title]
-#    fields:
-#      - name: date
-#        label: Data
-#        type: date
-#        options:
-#          time: false
-#          format: "yyyy-MM-dd"
-#
-#      - name: title
-#        label: Titolo
-#        type: string
-#
-#      - name: subtitle
-#        label: Sottotitolo
-#        type: string
-#
-#      - name: url
-#        label: URL notizia
-#        type: string
-#
-#      - name: cover
-#        label: Immagine di copertina
-#        type: image
-#
-#      - name: size
-#        label: Dimensione card
-#        type: select
-#        options:
-#          values:
-#            - small
-#            - medium
-#            - large
-#        default: medium
-#
+  - name: news
+    label: Notizie
+    path: news
+    filename: '{year}-{month}-{day}-{fields.title}.md'
+    type: collection
+    create: true
+    view:
+      fields: [date, title]
+    fields:
+      - name: date
+        label: Data
+        type: date
+        options:
+          time: false
+          format: "yyyy-MM-dd"
+
+      - name: title
+        label: Titolo
+        type: string
+
+      - name: subtitle
+        label: Sottotitolo
+        type: string
+
+      - name: url
+        label: URL notizia
+        type: string
+
+      - name: cover
+        label: Immagine di copertina
+        type: image
+
+      - name: size
+        label: Dimensione card
+        type: select
+        options:
+          values:
+            - small
+            - medium
+            - large
+        default: medium
+
 #  - name: filmography
 #    label: Filmografia
 #    path: filmography
