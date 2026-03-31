@@ -115,46 +115,46 @@ content:
             - large
         default: medium
 
-#  - name: filmography
-#    label: Filmografia
-#    path: filmography
-#    filename: '{fields.title}.md'
-#    type: collection
-#    create: true
-#    view:
-#      fields: [title, director, date]
-#    fields:
-#      - name: title
-#        label: Titolo
-#        type: string
-#
-#      - name: director
-#        label: Regista
-#        type: string
-#
-#      - name: date
-#        label: Data di uscita
-#        type: date
-#        options:
-#          time: false
-#          format: "yyyy-MM-dd"
-#
-#      - name: poster
-#        label: Poster / Immagine
-#        type: image
-#
-#      - name: synopsis
-#        label: Sinossi
-#        type: text
-#
-#      - name: trailer_url
-#        label: Link trailer YouTube
-#        type: string
-#
-#      - name: spotify_key
-#        label: Key / Link Spotify
-#        type: string
-#
+  - name: filmography
+    label: Filmografia
+    path: filmography
+    filename: '{fields.title}.md'
+    type: collection
+    create: true
+    view:
+      fields: [title, director, date]
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+
+      - name: director
+        label: Regista
+        type: string
+
+      - name: date
+        label: Data di uscita
+        type: date
+        options:
+          time: false
+          format: "yyyy-MM-dd"
+
+      - name: poster
+        label: Poster / Immagine
+        type: image
+
+      - name: synopsis
+        label: Sinossi
+        type: text
+
+      - name: trailer_url
+        label: Link trailer YouTube
+        type: string
+
+      - name: spotify_key
+        label: Key / Link Spotify
+        type: string
+
 #  - name: biography
 #    label: Biografia
 #    filename: 'biography/Biografia.md'
