@@ -33,46 +33,46 @@ content:
         type: string
 
 
-#  - name: absolute
-#    label: Musica Assoluta
-#    path: absolute
-#    filename: '{fields.name}.md'
-#    type: collection
-#    create: true
-#    view:
-#      fields: [name, instrumentation, premiere_date]
-#    fields:
-#      - name: name
-#        label: Nome composizione
-#        type: string
-#
-#      - name: instrumentation
-#        label: Organico
-#        type: text
-#
-#      - name: composition_type
-#        label: Tipo di composizione
-#        type: select
-#        options:
-#          values:
-#            - Symphonic
-#            - Chamber
-#            - Theatre
-#            - Movie
-#        default: Symphonic
-#          
-#      - name: premiere_date
-#        label: Data prima esecuzione
-#        type: date
-#        options:
-#          time: false
-#          format: "yyyy-MM-dd"
-#
-#      - name: url
-#        label: Link Youtube/Spotify
-#        type: text
-#
-#
+  - name: absolute
+    label: Musica Assoluta
+    path: absolute
+    filename: '{fields.name}.md'
+    type: collection
+    create: true
+    view:
+      fields: [name, instrumentation, premiere_date]
+    fields:
+      - name: name
+        label: Nome composizione
+        type: string
+
+      - name: instrumentation
+        label: Organico
+        type: text
+
+      - name: composition_type
+        label: Tipo di composizione
+        type: select
+        options:
+          values:
+            - Symphonic
+            - Chamber
+            - Theatre
+            - Movie
+        default: Symphonic
+          
+      - name: premiere_date
+        label: Data prima esecuzione
+        type: date
+        options:
+          time: false
+          format: "yyyy-MM-dd"
+
+      - name: url
+        label: Link Youtube/Spotify
+        type: text
+
+
 #  - name: news
 #    label: Notizie
 #    path: news
