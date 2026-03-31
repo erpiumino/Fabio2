@@ -157,7 +157,7 @@ content:
 
   - name: biography
     label: Biografia
-    filename: 'biography/Biografia.md'
+    filename: 'biography.md'
     type: file
     fields:
       - name: title1
@@ -184,7 +184,7 @@ content:
         label: Immagine2 
         type: image
 
-     
+
 media:
   input: assets/news
   output: /assets/news
