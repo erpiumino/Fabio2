@@ -183,7 +183,8 @@ content:
       - name: img2
         label: Immagine2 
         type: image
-       
+
+     
 media:
   input: assets/news
   output: /assets/news
